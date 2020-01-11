@@ -1,10 +1,10 @@
-# @saitho/semantic-release-sharedconf-npm
+# @saithodev/semantic-release-sharedconf-npm
 
 [**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish npm packages.
 
 [![Travis](https://img.shields.io/travis/saitho/semantic-release-sharedconf-npm.svg)](https://travis-ci.org/saitho/semantic-release-sharedconf-npm)
-[![npm latest version](https://img.shields.io/npm/v/@saitho/semantic-release-sharedconf-npm/latest.svg)](https://www.npmjs.com/package/@saitho/semantic-release-sharedconf-npm)
-[![npm next version](https://img.shields.io/npm/v/@saitho/semantic-release-sharedconf-npm/next.svg)](https://www.npmjs.com/package/@saitho/semantic-release-sharedconf-npm)
+[![npm latest version](https://img.shields.io/npm/v/@saithodev/semantic-release-sharedconf-npm/latest.svg)](https://www.npmjs.com/package/@saithodev/semantic-release-sharedconf-npm)
+[![npm next version](https://img.shields.io/npm/v/@saithodev/semantic-release-sharedconf-npm/next.svg)](https://www.npmjs.com/package/@saithodev/semantic-release-sharedconf-npm)
 
 ## Plugins
 
@@ -19,7 +19,7 @@ This shareable configuration use the following plugins:
 ## Install
 
 ```bash
-$ npm install --save-dev semantic-release @saitho/semantic-release-sharedconf-npm
+$ npm install --save-dev semantic-release @saithodev/semantic-release-sharedconf-npm
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ The shareable config can be configured in the [**semantic-release** configuratio
 
 ```json
 {
-  "extends": "@saitho/semantic-release-sharedconf-npm"
+  "extends": "@saithodev/semantic-release-sharedconf-npm"
 }
 ```
 
