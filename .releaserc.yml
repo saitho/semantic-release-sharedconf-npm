@@ -5,7 +5,7 @@ plugins:
     tarballDir: release
   }]
   - ['@semantic-release/exec', {
-    prepareCmd: 'pnpm run typedoc'}]
+    prepareCmd: 'pnpm run docs:build'}]
   - ['@semantic-release/git', {
     assets: [package.json]
   }]
