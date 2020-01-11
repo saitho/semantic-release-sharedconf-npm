@@ -3,7 +3,6 @@
 [**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish npm packages.
 
 [![Travis](https://img.shields.io/travis/saitho/semantic-release-sharedconf-npm.svg)](https://travis-ci.org/saitho/semantic-release-sharedconf-npm)
-
 [![npm latest version](https://img.shields.io/npm/v/@saitho/semantic-release-sharedconf-npm/latest.svg)](https://www.npmjs.com/package/@saitho/semantic-release-sharedconf-npm)
 [![npm next version](https://img.shields.io/npm/v/@saitho/semantic-release-sharedconf-npm/next.svg)](https://www.npmjs.com/package/@saitho/semantic-release-sharedconf-npm)
 
