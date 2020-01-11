@@ -1,0 +1,27 @@
+language: node_js
+os: linux
+dist: trusty
+
+cache:
+  directories:
+  - node_modules
+
+install:
+  - npm i pnpm -g
+  - pnpm install
+
+jobs:
+  include:
+    - stage: validate yaml
+      script:
+        - pnpm test
+      after_success:
+        - "[[ $TRAVIS_PULL_REQUEST != 'false' ]] && npx semantic-release-github-pr || exit 0"
+    - stage: release
+      if: branch = master
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - pnpx semantic-release
