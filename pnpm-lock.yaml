@@ -3866,5 +3866,5 @@ specifiers:
   '@semantic-release/release-notes-generator': ^7.3.0
   commitizen: ^4.0.0
   cz-conventional-changelog: ^3.0.0
-  semantic-release: ^16.0.0
+  semantic-release: ^16.0.1
   yaml-lint: ^1.2.4
