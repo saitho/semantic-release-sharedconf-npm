@@ -1,11 +1,10 @@
 {
   "name": "@saithodev/semantic-release-sharedconf-npm",
   "version": "2.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "Sharable configuration for my NPM projects",
+  "main": "index.js",
   "scripts": {
     "test": "yamllint .releaserc.yml",
-    "docs:build": "mkdir -p docs && markdown README.md  > docs/index.html",
     "semantic-release": "semantic-release",
     "commit": "git-cz"
   },
@@ -21,7 +20,6 @@
     "@semantic-release/git": "^8.0.0",
     "commitizen": "^4.0.0",
     "cz-conventional-changelog": "^3.0.0",
-    "markdown-to-html": "^0.0.13",
     "semantic-release": "^16.0.1",
     "yaml-lint": "^1.2.4"
   },
