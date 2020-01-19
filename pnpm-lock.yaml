@@ -2,11 +2,11 @@ dependencies:
   '@qiwi/semantic-release-gh-pages-plugin': 1.15.7
   '@semantic-release/commit-analyzer': 7.0.0_semantic-release@16.0.1
   '@semantic-release/exec': 4.0.0_semantic-release@16.0.1
+  '@semantic-release/git': 8.0.0_semantic-release@16.0.1
   '@semantic-release/github': 6.0.1_semantic-release@16.0.1
   '@semantic-release/npm': 6.0.0_semantic-release@16.0.1
   '@semantic-release/release-notes-generator': 7.3.5_semantic-release@16.0.1
 devDependencies:
-  '@semantic-release/git': 8.0.0_semantic-release@16.0.1
   commitizen: 4.0.3
   cz-conventional-changelog: 3.0.2
   semantic-release: 16.0.1_semantic-release@16.0.1
@@ -194,7 +194,7 @@ packages:
       micromatch: 4.0.2
       p-reduce: 2.1.0
       semantic-release: 16.0.1_semantic-release@16.0.1
-    dev: true
+    dev: false
     engines:
       node: '>=10.13'
     peerDependencies:
