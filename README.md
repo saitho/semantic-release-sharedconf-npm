@@ -4,7 +4,6 @@
 
 [![Travis](https://img.shields.io/travis/saitho/semantic-release-sharedconf-npm.svg)](https://travis-ci.org/saitho/semantic-release-sharedconf-npm)
 [![npm latest version](https://img.shields.io/npm/v/@saithodev/semantic-release-sharedconf-npm/latest.svg)](https://www.npmjs.com/package/@saithodev/semantic-release-sharedconf-npm)
-[![npm next version](https://img.shields.io/npm/v/@saithodev/semantic-release-sharedconf-npm/next.svg)](https://www.npmjs.com/package/@saithodev/semantic-release-sharedconf-npm)
 
 ## Plugins
 
