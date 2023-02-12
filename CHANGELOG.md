@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/saitho/semantic-release-sharedconf-npm/compare/v2.1.2...v2.2.0) (2023-02-12)
+
+
+### Features
+
+* update dependencies ([7aca815](https://github.com/saitho/semantic-release-sharedconf-npm/commit/7aca815ad028ec22cff0bc65abff86dba2f6a8fe))
+
 ## [2.1.2](https://github.com/saitho/semantic-release-sharedconf-npm/compare/v2.1.1...v2.1.2) (2022-11-04)
 
 

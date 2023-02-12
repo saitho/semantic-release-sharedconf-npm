@@ -1,6 +1,6 @@
 {
   "name": "@saithodev/semantic-release-sharedconf-npm",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Sharable configuration for my NPM projects",
   "main": "index.js",
   "scripts": {
