@@ -67,6 +67,7 @@ packages:
   /@commitlint/execute-rule@8.3.4:
     resolution: {integrity: sha512-f4HigYjeIBn9f7OuNv5zh2y5vWaAhNFrfeul8CRJDy82l3Y+09lxOTGxfF3uMXKrZq4LmuK6qvvRCZ8mUrVvzQ==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -88,6 +89,7 @@ packages:
   /@commitlint/resolve-extends@8.3.4:
     resolution: {integrity: sha512-M34RLaAW1eGWgtkVtotHfPaJa+cZIARe8twKItd7RhWs7n/1W2py9GTFIiIEq95LBN1uah5vm1WQHsfLqPZYHA==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dependencies:
       '@types/node': 12.12.24
       import-fresh: 3.2.1
@@ -469,6 +471,7 @@ packages:
 
   /@types/node@12.12.24:
     resolution: {integrity: sha512-1Ciqv9pqwVtW6FsIUKSZNB82E5Cu1I2bBTj1xuIHXLe/1zYLl3956Nbhg2MzSYHVfl9/rmanjbQIb7LibfCnug==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -567,6 +570,7 @@ packages:
 
   /argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
+    requiresBuild: true
     dependencies:
       sprintf-js: 1.0.3
     dev: true
@@ -619,6 +623,7 @@ packages:
 
   /babel-runtime@6.26.0:
     resolution: {integrity: sha1-llxwWGaOgrVde/4E/yM3vItWR/4=}
+    requiresBuild: true
     dependencies:
       core-js: 2.6.11
       regenerator-runtime: 0.11.1
@@ -677,6 +682,7 @@ packages:
   /caller-callsite@2.0.0:
     resolution: {integrity: sha1-hH4PzgoiN1CpoCfFSzNzGtMVQTQ=}
     engines: {node: '>=4'}
+    requiresBuild: true
     dependencies:
       callsites: 2.0.0
     dev: true
@@ -685,6 +691,7 @@ packages:
   /caller-path@2.0.0:
     resolution: {integrity: sha1-Ro+DBE42mrIBD6xfBs7uFbsssfQ=}
     engines: {node: '>=4'}
+    requiresBuild: true
     dependencies:
       caller-callsite: 2.0.0
     dev: true
@@ -693,6 +700,7 @@ packages:
   /callsites@2.0.0:
     resolution: {integrity: sha512-ksWePWBloaWPxJYQ8TL0JHvtci6G5QTKwQ95RcWAa/lzoAKuAOflGdAK92hpHXjkwb8zLxoLNUoNYZgVsaJzvQ==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -949,6 +957,7 @@ packages:
   /cosmiconfig@5.2.1:
     resolution: {integrity: sha512-H65gsXo1SKjf8zmrJ67eJk8aIRKV5ff2D4uKZIBZShbhGSpEmsQOPW/SKMKYhSTrqR7ufy6RP69rPogdaPh/kA==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dependencies:
       import-fresh: 2.0.0
       is-directory: 0.3.1
@@ -1386,6 +1395,7 @@ packages:
   /global-dirs@0.1.1:
     resolution: {integrity: sha1-sxnA3UYH81PzvpzKTHL8FIxJ9EU=}
     engines: {node: '>=4'}
+    requiresBuild: true
     dependencies:
       ini: 1.3.5
     dev: true
@@ -1567,6 +1577,7 @@ packages:
   /import-fresh@2.0.0:
     resolution: {integrity: sha512-eZ5H8rcgYazHbKC3PG4ClHNykCSxtAhxSSEM+2mb+7evD2CKF5V7c0dNum7AdpDh0ZdICwZY9sRSn8f+KH96sg==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dependencies:
       caller-path: 2.0.0
       resolve-from: 3.0.0
@@ -1649,6 +1660,7 @@ packages:
   /is-directory@0.3.1:
     resolution: {integrity: sha1-YTObbyR1/Hcv2cnYP1yFddwVSuE=}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1759,6 +1771,7 @@ packages:
   /js-yaml@3.13.1:
     resolution: {integrity: sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==}
     hasBin: true
+    requiresBuild: true
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
@@ -1859,6 +1872,7 @@ packages:
 
   /lodash@4.17.15:
     resolution: {integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2530,6 +2544,7 @@ packages:
 
   /regenerator-runtime@0.11.1:
     resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2554,6 +2569,7 @@ packages:
   /resolve-from@3.0.0:
     resolution: {integrity: sha512-GnlH6vxLymXJNMBo7XP1fJIzBFbdYt49CuTwmB/6N53t+kMPRMFKz783LlQ4tv28XoQfMWinAJX6WCGf2IlaIw==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2568,6 +2584,7 @@ packages:
   /resolve-global@1.0.0:
     resolution: {integrity: sha512-zFa12V4OLtT5XUX/Q4VLvTfBf+Ok0SPc1FNGM/z9ctUdiU618qwKpWnd0CHs3+RqROfyEg/DhuHbMWYqcgljEw==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       global-dirs: 0.1.1
     dev: true
@@ -2762,6 +2779,7 @@ packages:
 
   /sprintf-js@1.0.3:
     resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
+    requiresBuild: true
     dev: true
     optional: true
 
