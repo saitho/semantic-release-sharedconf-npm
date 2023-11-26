@@ -9,19 +9,19 @@
     "commit": "git-cz"
   },
   "dependencies": {
-    "@qiwi/semantic-release-gh-pages-plugin": "^5.2.4",
-    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@qiwi/semantic-release-gh-pages-plugin": "^5.2.10",
+    "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/exec": "^6.0.3",
-    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.7",
-    "@semantic-release/npm": "^9.0.2",
-    "@semantic-release/release-notes-generator": "^10.0.3"
+    "@semantic-release/github": "^9.2.3",
+    "@semantic-release/npm": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^12.1.0"
   },
   "devDependencies": {
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "semantic-release": "^20.1.0",
+    "semantic-release": "^22.0.8",
     "yaml-lint": "^1.7.0"
   },
   "repository": {
